@@ -1,0 +1,45 @@
+#date ul li {
+    position: relative;
+}
+#date ul li span {
+    color: #FFFFFF;
+    text-shadow: rgba(0,0,0,.7) 0 1px 2px;
+}
+#date ul li .delete {
+    position: absolute;
+    top: 5px;
+    right: 6px;
+    font-size: 12px;
+    line-height: 30px;
+    padding: 0 3px;
+    border-width: 0 5px;
+    -webkit-border-image: url(themes/jqt/img/button.png) 0 5 0 5;
+}
+
+#home ul li {
+    background: url(themes/jqt/img/chevron.png) right center no-repeat, 
+    -webkit-gradient(linear, 0% 0%, 0% 100%, from(#cc9966), to(#200000));
+    -webkit-border-top-left-radius: 8px;
+    -webkit-border-top-right-radius: 8px;
+    -webkit-border-bottom-left-radius: 8px;
+    -webkit-border-bottom-right-radius: 8px;
+}
+
+#dates ul li a {
+    background: url(themes/jqt/img/chevron.png) right center no-repeat, 
+    -webkit-gradient(linear, 0% 0%, 0% 100%, from(#CC9966), to(#800000));
+}
+
+#teams ul li a {
+    background: url(themes/jqt/img/chevron.png) right center no-repeat, 
+    -webkit-gradient(linear, 0% 0%, 0% 100%, from(#800000), to(#CC9966));
+}
+
+#dates ul li.race a {
+    background: url(themes/jqt/img/chevron.png) right center no-repeat, 
+    -webkit-gradient(linear, 0% 0%, 0% 100%, from(#CC9966), to(#F00000));
+}
+
+ul.edgetoedge li {
+    background: #CCCC66;
+}
